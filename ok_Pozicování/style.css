@@ -1,0 +1,91 @@
+/* Reset */
+body, h1, p, nav, footer, header, section, aside {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background: rgb(130, 178, 206);
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+header h1 {
+  line-height: 80px;  /* svislé zarovnání textu */
+  width: 100%;
+  top: 0px;
+  position: fixed;
+  z-index: -1;
+}
+
+/* Navigation */
+nav {
+  background: #ddd;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Main content */
+main {
+  text-align: center; 
+  margin-top: 120px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background: peachpuff;
+  display: inline-block;
+}
+
+.inner {
+  background: rgba(0,0,0,0.1);
+  padding: 5px;
+  position: absolute;
+  margin-top: 154px;
+  margin-left: 135px;
+}
+
+/* Aside */
+aside {
+  width: 150px;
+  background: lightgreen;
+  padding: 10px;
+  position: fixed;
+  right: 0px;
+  top: 100px;
+}
+
+/* Footer */
+footer {
+  background: #ccc;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}

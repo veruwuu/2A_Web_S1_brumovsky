@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  table {
+    border-collapse: collapse;
+  }
+
+  td,
+  th {
+    border: 1px solid black;
+    padding: 2px 4px;
+  }
+
+  p {
+    
+    color: rgb(245,245,245);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+  }
+
+  #uvod {
+    font-variant-caps: small-caps;
+  }
+
+  h1,
+  h2,
+  h3 {
+    color: #ffd700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+  }
+
+  a {
+    color: tomato;
+  }
+
+  kroky {
+    font-style: oblique;
+    font-size: small;
+  }
+
+  li>a {
+    font-style: oblique;
+    font-weight: bold;
+  };
+
+  ul {
+    font-weight: bold;
+  }
+}
+

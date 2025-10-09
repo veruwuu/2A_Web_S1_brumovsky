@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-menu {
+  background-color: rgb(64, 138, 213);
+  padding: 0px;
+  border-bottom: 10px solid rgb(194, 204, 220)
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  padding: 8px;
+  border: 1px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.359);
+  border-left: 10px solid rgb(1, 95, 209);
+  border-right: 10px solid rgb(129, 161, 215)
+}
+
+li:hover {
+  background-color: rgb(32, 59, 97);
+}
+
