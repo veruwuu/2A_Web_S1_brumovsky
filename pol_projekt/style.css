@@ -1,0 +1,167 @@
+:root {
+    --main: #e43636;
+    --second: #000000;
+    --third: #f6efd2;
+}
+
+html {
+    background-color: var(--main);
+    color: var(--third);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+body {
+    margin: 0px;
+}
+
+#topbar {
+    background-color: var(--second);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+#topbar a {
+    text-decoration: none;
+    color: var(--third);
+    height: 26px;
+    width: 20%;
+    margin: 5px;
+    display: inline-block;
+    margin-top: 9px;
+    border-radius: 5px;
+}
+
+#topbar a:not(.active):not(.spacer) {
+    transition: background-color 0.4s, color 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+#topbar a:not(.active):not(.spacer):hover {
+    background-color: #e43636;
+    color: var(--second);
+}
+
+#topbar p {
+    display: block;
+    margin: 0px;
+}
+
+#topbar .active {
+    background-color: var(--main);
+    height: 45px;
+    color: var(--second);
+}
+
+#topbar .spacer {
+    text-align: right;
+    margin-top: 4px;
+}
+
+#logo {
+    height: 32px;
+}
+
+#beeg {
+    margin-bottom: 16px;
+    vertical-align: middle;
+}
+
+#beeg img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#beeg p {
+    color: var(--second);
+    margin-top: 40px;
+    position: absolute;
+    display: inline;
+    width: 100%;
+    font-size: 13vw;
+    opacity: 40%;
+    z-index: 1;
+    text-align: center;
+}
+
+#iswear {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.normal {
+    width: 80%;
+    margin: auto;
+    background-color: var(--second);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+#labels {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding-bottom: 15px;
+}
+
+#second {
+    width: 70%;
+    display: flex;
+    flex-direction: column;    
+}
+
+input {
+    color: var(--third);
+    padding: 2px;
+    margin-bottom: 20px;
+    background-color: var(--second);
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid var(--main);
+}
+
+input:focus {
+    border: 2px solid var(--third)
+}
+
+#grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 352px auto 352px;
+    grid-gap: 20px;
+}
+
+.brat img {
+    border-radius: 12px;
+    width: 352px
+}
+
+.text {
+    height: 352px;
+    overflow: auto;
+}
+
+.spotify {
+    width: 352px;
+    height: 352px;
+}
+

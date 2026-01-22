@@ -1,0 +1,68 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+  'nav nav nav'
+  'side ads ads'
+  'side main posts'
+  'side main posts'
+  'side main posts'
+  'foot foot foot';
+  margin: 5px;
+}
+
+nav {
+  background-color: #253B4A;
+  grid-area: nav;
+  margin: 5px;
+}
+
+.ads {
+  background-color: #257D92;
+  grid-area: ads;
+  margin: 5px;
+}
+
+aside {
+  background-color: #FFBC00;
+  grid-area: side;
+  margin: 5px;
+}
+
+main {
+  background-color: #FF530D;
+  grid-area: main;
+  margin: 5px;
+}
+
+.posts {
+  background-color: #FFBC00;
+  grid-area: posts;
+  margin: 5px;
+}
+
+footer {
+  background-color: #257D92;
+  grid-area: foot;
+  margin: 5px;
+}
+
+/* Initial styles */
+body, html {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+nav, aside, main, footer, .posts, .ads {
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 2rem 0;
+}

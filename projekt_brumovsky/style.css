@@ -1,0 +1,307 @@
+
+body {
+    margin: 0px;
+}
+
+h2 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: white;
+    color: #6d0016;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+#menu {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+#menu h1 {
+    font-size: 30px;
+    color: white;
+    background-color: #6d0016;
+    min-height: 40px;
+    width: 100%;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right:40px;
+    margin: 0px;
+    padding-top: 5px;
+    letter-spacing: 3px;
+}
+
+#menu ul {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #abcdef;
+    list-style: none;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#menu a {
+    background-color: #6d0016;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#menu a:hover {
+    animation-name: button;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button {
+    0% {
+        background-color: #6d0016;
+        color: white;
+    }
+    100% {
+        background-color: white;
+        color: #6d0016;
+    }
+
+}
+
+#mission {
+    margin: 25px;
+    margin-top: 85px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: fit-content;
+}
+
+#healthcare {
+    background-color: #abcdef;
+    padding: 10px;
+    height: 180px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+#healthcare h2 {
+    display: inline-block;
+    margin: 0px;
+}
+
+#healthcare p {
+    margin-bottom: 0px;
+}
+
+#healthcare img {
+    float: left;
+    margin-right: 15px;
+    height: 180px;
+}
+
+#pension {
+    background-color: #abcdef;
+    padding: 10px;
+    height: fit-content;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+#pension h2 {
+    display: inline-block;
+    margin: 0px;
+}
+
+#pension p {
+    margin-bottom: 0px;
+}
+
+#pension img {
+    float: right;
+    margin-left: 15px;
+    height: 180px;
+}
+
+#houseprices {
+    background-color: #abcdef;
+    padding: 10px;
+    height: fit-content;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+#houseprices h2 {
+    display: inline-block;
+    margin: 0px;
+}
+
+#houseprices p {
+    margin-bottom: 0px;
+}
+
+#houseprices img {
+    float: left;
+    margin-right: 15px;
+    height: 180px;
+}
+
+#salaries {
+    background-color: #abcdef;
+    padding: 10px;
+    height: fit-content;
+    overflow: auto;
+}
+
+#salaries h2 {
+    display: inline-block;
+    margin: 0px;
+}
+
+#salaries p {
+    margin-bottom: 0px;
+}
+
+#salaries img {
+    float: right;
+    margin-left: 15px;
+    height: 180px;
+}
+
+#leaders {
+    background-color: #abcdef;
+    height: fit-content;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#leaders h2 {
+    display: inline-block;
+    width: 90%;
+    margin: 0px
+}
+
+#leaders img {
+    width: 95%;
+}
+
+#leaders div {
+    width: 33%;
+}
+
+#events {
+    background-color: #abcdef;
+    height: fit-content;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#events img {
+    width: 100%; 
+}
+
+#contact {
+    background-color: #abcdef;
+    height: fit-content;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer {
+    background-color: #6d0016;
+    color: white;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#footer p {
+    margin-bottom: 0px;;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #menu {
+        text-align: center;
+    }
+
+    #menu h1 {
+        padding-left: 10px;
+        padding-right: 10px;;
+    }
+
+    #menu ul {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 1px;
+        flex-direction: column;
+    }
+
+    #menu a {
+        width: 98%;
+        margin-top: 2px
+    }
+    
+    #mission {
+        margin-top: 141px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #mission div {
+        height:fit-content;
+
+    }
+
+    #mission img {
+        float: top;
+        margin: 0px;
+        margin-bottom: 5px;
+        width: 100%;
+        height: auto;
+    }
+
+    #leaders {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #leaders div {
+        width: 100%
+    }
+
+    #events {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #contact {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #e74c3c;
+  border-radius: 50%;
+  animation-name: animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+  10%{
+    transform: scale(100%);
+    background-color: #e74c3c
+  }
+  20% {
+    transform: scale(110%);
+    background-color: #b62249
+  }
+  30% {
+    transform: scale(100%);
+    background-color: #e74c3c
+  }
+  40% {
+    transform: scale(110%);
+    background-color: #b62249
+  }
+  50% {
+    transform: scale(100%);
+    background-color: #e74c3c;
+  }
+}

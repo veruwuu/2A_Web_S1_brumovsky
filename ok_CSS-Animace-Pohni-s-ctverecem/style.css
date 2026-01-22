@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: #3498db;
+  position: absolute;
+  animation-name: animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animation {
+  25% {
+    transform: translate(50px, 0px);
+  }
+  50% {
+    transform: translate(50px, 50px);
+  }
+  75% {
+    transform: translate(0px, 50px)
+  }
+}

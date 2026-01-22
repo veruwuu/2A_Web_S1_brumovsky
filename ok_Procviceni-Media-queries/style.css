@@ -1,0 +1,58 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen {
+  html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+  }
+
+  div {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  html {
+    font-size: 16pt;
+  }
+
+  body {
+    background-color: darkred;
+  }
+
+  #pro-velke {
+    visibility: visible;
+  }
+}
+
+@media screen and (min-width:990px) and (max-width:1200px) {
+  html {
+    font-size: 14pt;
+  }
+
+  body {
+    background-color: darkgreen;
+  }
+
+  #pro-stredni {
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width:990px) {
+  html {
+    font-size: 12pt;
+  }
+
+  body {
+    background-color: darkblue;
+  }
+
+  #pro-male {
+    visibility: visible;
+  }
+}
