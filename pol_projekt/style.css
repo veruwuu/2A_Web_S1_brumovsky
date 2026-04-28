@@ -143,21 +143,16 @@ input:focus {
     border: 2px solid var(--third)
 }
 
-#grid {
+#imgonnakms {
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: 352px auto 352px;
-    grid-gap: 20px;
+    display: flex;
+    gap: 15px;
 }
 
 .brat img {
     border-radius: 12px;
-    width: 352px
-}
-
-.text {
+    width: 352px;
     height: 352px;
-    overflow: auto;
 }
 
 .spotify {
@@ -165,3 +160,12 @@ input:focus {
     height: 352px;
 }
 
+.text {
+    height: 352px;
+    width: 40%;
+    overflow: auto
+}
+
+.normal img {
+    width: 100%;
+}
