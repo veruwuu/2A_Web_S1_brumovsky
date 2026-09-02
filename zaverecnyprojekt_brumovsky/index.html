@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stupid Gacha Ball Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="res/kirbyicon.png" />
+    <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+    <div id="topbar">
+        <h1>Stupid Gacha Ball Game</h1>
+        <p id="balance"> 0$ </p>
+        <ul>
+            <button onclick="tabchange('job')"> JOB </button>
+            <button onclick="tabchange('ballin')"> BALLIN' </button>
+            <button onclick="tabchange('gallery')"> GALLERY </button>
+        </ul>
+    </div>
+    <div id="job" class="tabcontent">
+        <p> Ballin' ain't cost nothing, young lad </p>
+        <img src="res/cubicle.jpg"/>
+        <button class="action" onclick="workclicked(window.innerHeight, window.innerWidth)"> WORK </button>
+    </div>
+    <div id="ballin" class="tabcontent">
+        <p> You need 10$ to roll, by the way </p>
+        <img id="kirby" src="res/kirby.jpg"/>
+        <button class="action" onclick="makekirbymove()"> ROLL KIRBY, GET ME A DOG GODDAMNIT </button>
+    </div>
+    <div id="dogpopup">
+        <p> Congratulations! It's a dog! </p>
+        <img id="dog" src=""/>
+        <ul>
+            <button onclick="snatchdog()"> OMG THANK YOU SM *snatches* </button>
+            <button onclick="discarddog()"> Fuck you Kirby *discards* </button>
+        </ul>
+    </div>
+    <div id="gallery" class="tabcontent">
+
+    </div>
+    <footer>
+        <p> Hii, I (Discord: ee_echo_oo) made this, I don't know how I thought of it but it makes me laugh </p>
+    </footer>
+    <script src="code.js"></script>
+</body>
+</html>
